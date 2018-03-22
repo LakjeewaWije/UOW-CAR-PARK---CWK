@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="664.0" y="679.5">CarPark.Car</node>
+    <node x="771.6666666666667" y="951.0">CarPark.WestMinisterCarParkManager</node>
+    <node x="985.0" y="703.5">CarPark.MotorBike</node>
+    <node x="349.0" y="703.5">CarPark.Van</node>
+    <node x="932.1388888888889" y="370.0">CarPark.Vehicle</node>
+    <node x="-2.5" y="651.75">CarPark.CarParkManager</node>
+    <node x="920.8888888888889" y="0.0">CarPark.DateTime</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="CarPark.WestMinisterCarParkManager" target="CarPark.MotorBike">
+      <point x="37.0" y="-208.0" />
+      <point x="1030.6666666666667" y="911.0" />
+      <point x="1123.5" y="911.0" />
+      <point x="0.0" y="76.0" />
+    </edge>
+    <edge source="CarPark.Van" target="CarPark.Vehicle">
+      <point x="0.0" y="-76.0" />
+      <point x="496.5" y="638.0" />
+      <point x="964.6388888888889" y="638.0" />
+      <point x="-130.0" y="124.0" />
+    </edge>
+    <edge source="CarPark.WestMinisterCarParkManager" target="CarPark.Car">
+      <point x="-37.0" y="-208.0" />
+      <point x="956.6666666666667" y="911.0" />
+      <point x="814.5" y="911.0" />
+      <point x="0.0" y="100.0" />
+    </edge>
+    <edge source="CarPark.MotorBike" target="CarPark.Vehicle">
+      <point x="0.0" y="-76.0" />
+      <point x="1123.5" y="648.0" />
+      <point x="1094.638888888889" y="648.0" />
+      <point x="0.0" y="124.0" />
+    </edge>
+    <edge source="CarPark.WestMinisterCarParkManager" target="CarPark.Vehicle">
+      <point x="111.0" y="-208.0" />
+      <point x="1104.6666666666667" y="921.0" />
+      <point x="1272.5" y="921.0" />
+      <point x="1272.5" y="648.0" />
+      <point x="1159.638888888889" y="648.0" />
+      <point x="65.0" y="124.0" />
+    </edge>
+    <edge source="CarPark.WestMinisterCarParkManager" target="CarPark.Van">
+      <point x="-111.0" y="-208.0" />
+      <point x="882.6666666666667" y="921.0" />
+      <point x="496.5" y="921.0" />
+      <point x="0.0" y="76.0" />
+    </edge>
+    <edge source="CarPark.Car" target="CarPark.Vehicle">
+      <point x="0.0" y="-100.0" />
+      <point x="814.5" y="648.0" />
+      <point x="1029.638888888889" y="648.0" />
+      <point x="-65.0" y="124.0" />
+    </edge>
+    <edge source="CarPark.Vehicle" target="CarPark.DateTime">
+      <point x="-81.25" y="-124.0" />
+      <point x="1013.3888888888889" y="345.0" />
+      <point x="1005.8888888888889" y="345.0" />
+      <point x="-85.0" y="160.0" />
+    </edge>
+    <edge source="CarPark.WestMinisterCarParkManager" target="CarPark.CarParkManager">
+      <point x="-185.0" y="-208.0" />
+      <point x="808.6666666666667" y="931.0" />
+      <point x="164.5" y="931.0" />
+      <point x="0.0" y="111.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8" x="442.625" y="456.375" />
+  <SelectedNodes>
+    <node>CarPark.CarParkManager</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
